@@ -1,0 +1,52 @@
+#modal {
+  background-color: rgba(0, 0, 0, 0.673);
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  display: flex;
+  top: 0;
+  left: 0;
+  z-index: -10;
+  opacity: 0;
+  justify-content: center;
+  align-items: center;
+  transition: all ease 500ms;
+}
+#modal-img {
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  width: 95%;
+  left: 1%;
+  /* top: 10%; */
+  position: absolute;
+  transition: ease all 500ms;
+}
+#modal-p {
+  display: flex;
+  position: fixed;
+  width: 90%;
+  padding: 5px 15px;
+  left: 20px;
+  bottom: 20px;
+  border-radius: 10px;
+  color: aliceblue;
+  font-size: 5vh;
+  text-shadow: 1px 2px 3px rgb(65, 64, 64);
+  background-color: rgba(0, 0, 0, 0.318);
+}
+#modal-close {
+  position: fixed;
+  font-size: 50px;
+  /* font-weight: bold; */
+  display: flex;
+  cursor: pointer;
+  padding: 0 15px;
+  right: 15px;
+  top: 15px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  background-color: crimson;
+  color: white;
+}

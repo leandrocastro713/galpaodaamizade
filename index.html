@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-------------------------------- fontes utilizadas -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Acme&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+    <!--------------------------------- arquivos de estilo -->
+    <link rel="stylesheet" href="estilo.css" />
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="banner.css" />
+    <link rel="stylesheet" href="menu.css" />
+    <link rel="stylesheet" href="rodape.css" />
+    <link rel="stylesheet" href="modal.css" />
+    <link rel="stylesheet" href="container.css" />
+    <!--------------------------------- script  -->
+    <script defer src="./script.js"></script>
+    <title>Galpão da Amizade</title>
+  </head>
+  <body>
+    <!--------------------------------- header  -->
+    <section id="header" class="header">
+      <div class="title">
+        <h1 id="bemvindo">Bem-vindo ao Galpão da Amizade</h1>
+        <h3>Onde sua festa acontece</h3>
+      </div>
+
+      <!------------------------------- banner  -->
+      <banner class="banner">
+        <img src="./img/foto2.jpg" alt="" />
+      </banner>
+
+      <img src="./img/anterior.png" alt="botão anterior" class="anterior" />
+
+      <!---------------------------------modal  -->
+      <section id="modal">
+        <img id="modal-img" src="./img/20230808_203107.jpg" alt="" />
+        <p id="modal-p">Paragrafo</p>
+        <p id="modal-close">X</p>
+      </section>
+      <!-------------------------------- menu  -->
+      <nav class="menu">
+        <li class="menu-item">
+          <a href="#sobre-title">
+            <img src="./img/sobre.jpeg" alt="" />
+            <p>Sobre</p>
+          </a>
+        </li>
+
+        <li class="menu-item">
+          <a href="#galeria-title">
+            <img src="./img/galeria.jpg" alt="" />
+            <p>Galeria</p>
+          </a>
+        </li>
+
+        <li class="menu-item">
+          <a href="#sociais-title">
+            <img src="./img/sociais.webp" alt="" />
+            <p>Sociais</p>
+          </a>
+        </li>
+
+        <li class="menu-item">
+          <a href="#local-title">
+            <img src="./img/local.webp" alt="" />
+            <p>Local</p>
+          </a>
+        </li>
+
+      </nav>
+
+      <img src="./img/proximo.png" alt="botão proximo" class="proximo" />
+    </section>
+    <!-- header -->
+
+    <!---------------------------------- master container  -->
+    <section class="master-container">
+
+      <p id="sobre-title" class="container-title">Sobre</p>
+      <div id="sobre" class="sobre div-container"></div>
+      <a class="btn-voltar" href="#header">Voltar</a>
+
+      <p id="galeria-title" class="container-title">Galeria</p>
+      <div id="galeria" class="galeria div-container"></div>
+      <a class="btn-voltar" href="#header">Voltar</a>
+
+      <p id="sociais-title" class="container-title">Sociais</p>
+      <div id="sociais" class="sociais div-container"></div>
+      <a class="btn-voltar" href="#header">Voltar</a>
+
+      <p id="local-title" class="container-title">Local</p>
+      <div id="localo" class="local div-container"></div>
+      <a class="btn-voltar" href="#header">Voltar</a>
+
+    </section>
+    <!---------------------------------- rodape ------>
+    <section class="rodape">
+      <div class="left">
+        <h2>Todos os produtos neste site são feitos a mão.</h2>
+        <h2>Encomendas e compras podem ser feitas no número:</h2>
+        <div class="whats-div">
+          <img id="whats-icon" src="./img/logo-whatsapp.png" alt="" />
+          <h2 id="whats-number">(51) 9-9656-6771</h2>
+        </div>
+      </div>
+      <div id="right">
+        <h3 id="urzzomidia-h3">
+          @urzzomidia&copy; - Desenvolvimento de Sites e Social Midia
+        </h3>
+      </div>
+    </section>
+  </body>
+</html>
