@@ -25,7 +25,7 @@ let imagensBanner = [
 let bannerImage = document.querySelector('.banner img')
 let currentImageIndex = 0
 
-let timer = setInterval(nextImage, 5000)
+let timer = setInterval(nextImage, 3000)
 
 function nextImage(){
   currentImageIndex ++
@@ -34,6 +34,7 @@ function nextImage(){
   headerContent.style.backgroundImage = imagensBanner[currentImageIndex]
   console.log(headerContent)
 }
+
 function voltar(){
   window.scrollTo(0,0)
 }

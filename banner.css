@@ -10,7 +10,7 @@
   width: 100%;
 }
 .banner img {
-  animation: 5s ease-in-out infinite running banner-animation;
+  animation: 3s ease-in-out infinite running banner-animation;
   height: 200px;
   left: 0px;
   overflow: hidden;
