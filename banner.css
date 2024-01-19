@@ -21,12 +21,20 @@
 @keyframes banner-animation {
   0% {
     left: 0px;
+    opacity:0;
+  }
+  10%{
+    opacity: 1;
   }
   50% {
     left: -10px;
   }
+  90% {
+    opacity: 1;
+  }
   100% {
     left: 0px;
+    opacity: 0;
   }
 }
 @media (max-width: 500px) {

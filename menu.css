@@ -6,6 +6,7 @@
   overflow-x: scroll;
   position: sticky;
   position: -webkit-sticky;
+  padding: 1rem 1rem 1.6rem;
   top: 0;
 }
 .menu-item {
@@ -19,11 +20,12 @@
 .menu-item a {
   text-decoration: none;
   text-align: center;
-  color: black;
+  color: rgb(219, 219, 219);
 }
 .menu-item a img {
   position: relative;
   display: block;
+  padding: 10px;
   height: 100%;
   cursor: pointer;
 }
@@ -32,8 +34,8 @@
   transform: scale(1.03);
 }
 .menu-item a img {
-  width: 140px;
-  height: 140px;
+  width: 100px;
+  height: 100px;
 }
 .anterior,
 .proximo {

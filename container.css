@@ -7,15 +7,16 @@
 .div-container {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
   flex-wrap: wrap;
   margin: 0 auto;
   width: 100%;
   max-width: 1300px;
   height: 100%;
   min-height: 200px;
-  border: 1px solid gray;
+  /* border: 1px solid gray; */
   border-radius: 4px;
-  box-shadow: 3px 3px 5px rgba(141, 33, 33, 0.272);
+  box-shadow: 3px 3px 5px rgba(57, 55, 178, 0.272);
   /* background-color: aqua; */
 }
 .container-title {
@@ -58,7 +59,7 @@
   box-shadow: 2px 2px 15px silver;
 }
 .btn-voltar {
-  color: black;
+  color: rgb(151, 151, 151);
   text-decoration: none;
   cursor: pointer;
   display: block;
@@ -66,8 +67,35 @@
   text-align: center;
   padding: 10px 15px;
 }
+.col-video{
+  display:flex;
+  position:relative;
+  width:50%;
+  align-items: flex-start;
+  min-width: 310px;
+  max-width: 400px;
+  justify-content: center;
+  padding: 1rem;
+}
+.col-video video{
+  width:100%;
+}
+.col-info{
+  display:inline-block;
+  position:relative;
+  color: silver;
+  padding: 1rem;
+}
+.col-info h3{
+  font-size: 25px;
+  margin: 0 auto .8rem;
+}
+.col-info p{
+  font-size: 20px;
+  margin: 0 auto .8rem;
+}
 .btn-voltar:visited {
-  color: black;
+  color: rgb(151, 151, 151);
 }
 
 @media (min-width: 500px) {
@@ -78,7 +106,11 @@
 }
 
 @media (min-width: 1000px) {
+  .div-container{
+    flex-wrap: nowrap;
+  }
   .container-div {
+    flex-wrap: nowrap;
     width: 20%;
     height: auto;
   }
