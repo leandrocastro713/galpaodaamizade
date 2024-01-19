@@ -55,8 +55,16 @@
     top: 377px;
   }
 }
-@media (max-width: 384px) {
+@media (max-width: 484px) {
   .title h1{
-    font-size: 26px;
+    font-size: 30px;
+  
+  }
+  .title h3{
+    display:block;
+    position:absolute;
+    bottom:-20px;
+    font-size: 19px;
+    color:white;
   }
 }

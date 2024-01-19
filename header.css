@@ -1,29 +1,51 @@
-.title {
-  background-image: linear-gradient(rgb(136, 67, 67), rgba(41, 19, 15, 0.5)), url("./img/fundo1.jpeg");
-  background-color: rgb(63, 74, 108);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-blend-mode: overlay;
-  color: rgb(210, 209, 197);
-  align-items: center;
-  display: flex;
+.title{
+  display:flex;
+  position:absolute;
   flex-direction: column;
-}
-.title h1 {
-  font-size: 2.8rem;
   justify-content: center;
-  position: sticky;
-  margin: 1rem 0 0 0;
-  vertical-align: center;
+  align-items: center;
   top: 0;
+  height: 140px;
+  width:100%
+}
+.bemvindo{
+  flex-wrap: nowrap;
+  position:absolute;
+  display:flex;
+  color:rgb(228, 223, 223);
+  z-index: 10;
+}
+.bemvindo h1{
+  position:relative;
+  display:flex;
+  text-shadow: rgb(69, 63, 63) 3px 3px;
 }
 .title h3{
-  padding: 0 0 1rem;
+  display:block;
+  position:absolute;
+  bottom:30px;
+  font-size: 19px;
+  color:white;
+}
+.bemvindo h3{
+  position:relative;
+  display:flex;
+  text-shadow: rgb(214, 199, 199) 3px 3px;
 }
 @media (max-width: 500px) {
-  .title h1 {
-    font-size: 1.8rem;
-    align-items: center;
+  .title{
+    display:flex;
+    flex-direction: column;
+    position:absolute;
+    top:200;
+    flex-wrap: nowrap;
+  }
+  .bemvindo{
+    margin: 1rem auto;
+    font-size: 20px;
+    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
   }
 }
