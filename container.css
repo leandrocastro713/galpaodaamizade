@@ -103,6 +103,12 @@
   margin: 2rem auto;
 }
 
+
+@media (max-width: 499px) {
+  .col-video {
+    width:98%;
+  }
+}
 @media (min-width: 500px) {
   .container-div {
     width: 33%;
