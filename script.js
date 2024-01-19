@@ -25,7 +25,7 @@ let imagensBanner = [
 let bannerImage = document.querySelector('.banner img')
 let currentImageIndex = 0
 
-let timer = setInterval(nextImage, 3000)
+let timer = setInterval(nextImage, 5000)
 
 function nextImage(){
   currentImageIndex ++
