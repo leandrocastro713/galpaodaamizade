@@ -12,6 +12,6 @@
 html,
 body {
   overflow-x: hidden;
-  
+  background-color: rgb(35, 36, 38);
   background-blend-mode: overlay;
 }
