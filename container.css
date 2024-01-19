@@ -97,6 +97,11 @@
 .btn-voltar:visited {
   color: rgb(151, 151, 151);
 }
+.under{
+  width:200px;
+  max-width: 400px;
+  margin: 2rem auto;
+}
 
 @media (min-width: 500px) {
   .container-div {
