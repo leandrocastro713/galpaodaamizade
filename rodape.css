@@ -17,10 +17,12 @@
   display:flex;
   align-items: center;
   gap: 5px;
-  width:225px;
+  width:325px;
   padding: 10px 0;
 }
 .rodape #whats-icon{
+  position:relative;
+  display:flex;
   width:25px;
 }
 .rodape #whats-number{
@@ -32,6 +34,7 @@
   text-decoration: none;
   color:rgb(186, 184, 193)
 }
+
 #left{
   display:block;
   position:relative;
